@@ -1,0 +1,17 @@
+{
+  "ignore": [
+    "node_modules/",
+    "dist/",
+    ".git/",
+    "*.log"
+  ],
+  "formatOnSave": {
+    "enabled": true,
+    "include": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+    "exclude": ["*.md"]
+  },
+  "lintOnSave": {
+    "enabled": true,
+    "include": ["*.ts", "*.tsx"]
+  }
+} 
